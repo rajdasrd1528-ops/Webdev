@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: black;
+    color: white;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: green;
+    padding: 20px 5px;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+button {
+    background: darkgreen;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+main {
+    flex: 1;
+    padding: 80px 10%;
+}
+
+main h1 {
+    font-size: 45px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background: darkgreen;
+    padding: 20px ;
+    flex-wrap: wrap;
+}

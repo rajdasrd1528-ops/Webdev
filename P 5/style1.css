@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: black;
+    color: white;
+}
+
+header {
+    background: green;
+    padding: 30px;
+    text-align: center;
+}
+
+nav {
+    background: darkolivegreen;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+}
+
+main {
+    padding: 30px;
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: darkblue;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}

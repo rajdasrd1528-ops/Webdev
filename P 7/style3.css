@@ -1,0 +1,40 @@
+:root {
+    --primary-color: #3498db;
+    --background-color: #2c3e50;
+    --card-color: #34495e;
+    --text-color: #ecf0f1;
+
+    --small-space: 10px;
+    --medium-space: 20px;
+    --large-space: 40px;
+
+    --main-font: 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: var(--main-font);
+}
+
+.container {
+    padding: var(--medium-space);
+}
+
+h1 {
+    color: var(--primary-color);
+    font-size: 36px;
+}
+
+.card {
+    background-color: var(--card-color);
+    padding: var(--medium-space);
+    border-radius: 10px;
+}
+
+button {
+    background-color: var(--primary-color);
+    border: none;
+    padding: var(--small-space) var(--medium-space);
+    cursor: pointer;
+}
